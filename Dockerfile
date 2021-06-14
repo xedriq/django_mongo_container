@@ -1,5 +1,7 @@
 FROM python:3.8
 
+# RUN apt-get update -y && apt-get install -y openssl zip git nano
+
 ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
